@@ -24,7 +24,6 @@ def start_game():
     else:
         print(f"Sorry! The correct number was {secret_number}. Better luck next time.")
 
-# Ask if the user wants to play again
 while True:
     start_game()
     play_again = input("Do you want to play again? (yes/no): ").lower()
